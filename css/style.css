@@ -296,18 +296,22 @@ p {
   gap: 24px;
 }
 .social-item {
-  width: 40px;
-  height: 40px;
   border-radius: 50%;
   background-color: #4d5ae5;
 }
 .social-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: block;
+  width: 40px;
+  height: 40px;
+  padding: 12px;
 }
 .icons-social {
   fill: #f4f4fd;
+  height: 100%;
+  width: 100%;
+}
+.icon {
+  display: flex;
 }
 
 /* Our Portfolio */
@@ -349,6 +353,13 @@ p {
   padding-top: 100px;
   padding-bottom: 100px;
 }
+.footer-items {
+  display: flex;
+}
+.footer-logo-text {
+  max-width: 264px;
+  margin-right: 120px;
+}
 .logo-link-footer {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -364,8 +375,22 @@ p {
 
 .footer-text {
   color: #f4f4fd;
-  max-width: 264px;
 }
 .logo-footer-text {
   color: #f4f4fd;
+}
+.footer-social-media-text {
+  color: #f4f4fd;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+}
+.footer-social-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 16px;
 }
